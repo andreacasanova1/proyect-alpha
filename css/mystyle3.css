@@ -1,0 +1,92 @@
+*,
+*:after,
+*:before{
+	box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+}
+
+
+.seccionpapa{
+	height: auto;
+	position: relative;
+	display: flex;	
+    flex-direction: column;
+}
+.seccionportada {
+	height: 60vh;
+	width: 100%;
+	flex-direction: row;
+}
+.imagenportada{
+	 width: 100%;
+    height: 100%;
+    background: url(../img/tramaylogo_ibp8iu_c_scale\,w_1400.png) #ffa400;
+    background-repeat: no-repeat,no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+	display: flex;
+    flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.seccionretrato{
+	height: 80vh;
+    min-height: 550px;
+	overflow: hidden;
+	display: flex;
+    flex-direction: row;
+    background-position: 50% 50%;
+    background-size: 300%;
+}
+.vertical-text{
+	width: 10vw;
+    letter-spacing: 1px;
+    font-family: 'Cinzel', serif;
+    font-size: 6vw;
+    white-space: nowrap;
+    text-align: center;
+    flex-shrink: 0;
+    text-transform: uppercase;
+    background-color: #fff;
+    border-left: 1px solid #6a6a6a;
+    border-right: 1px solid #6a6a6a;
+	display: flex;
+    flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.vertical-text__text {
+    transform: rotate(-180deg);
+    -ms-writing-mode: tb-rl;
+    writing-mode: tb-rl;
+}
+.btnpmovil {
+    position: relative;
+    background-color: #ffa400;
+    border: 6px solid #141414;
+    border-radius: 40px;
+    width: 500px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    top:10em;
+  }
+p {
+    font-family:sans-serif;
+}
+.fondo-negro {
+    padding: 6em 3em 8em 3em; 
+    color:#fff;
+    background-color:#141414;
+    
+}
+p {
+    padding: 0em 3em 3em 3em;
+}
