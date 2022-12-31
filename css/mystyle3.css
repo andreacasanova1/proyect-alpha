@@ -39,6 +39,8 @@
     background-size: 300%;
 }*/
 .vertical-text{
+    padding: 40px;
+    margin: 15px;
 	width: 10vw;
     letter-spacing: 1px;
     font-family: 'Cinzel', serif;
@@ -48,8 +50,6 @@
     flex-shrink: 0;
     text-transform: uppercase;
     background-color: #fff;
-    border-left: 1px solid #6a6a6a;
-    border-right: 1px solid #6a6a6a;
 	display: flex;
     flex-direction: row;
 	align-items: center;
@@ -105,10 +105,11 @@ en cuestion*/
   
 
 .texto-servicios {
-    padding: 3em 3em 3em 3em;
+    padding: 3em 3em 3em 4em;
     font-size: 22px;
     background-color: #e3dfdf;
     color: #141414;
+    margin: 0;
 }
 .titulo-ser {
     width: auto;
@@ -176,4 +177,12 @@ en cuestion*/
     flex-basis: 880px;
 }
 
-  
+.shop-art {
+    background: url(../img/art-shop_oaplpt_c_scale\,w_623.png) #ffa400;
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 880px;
+}
