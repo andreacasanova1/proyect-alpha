@@ -123,10 +123,17 @@ en cuestion*/
     align-items: center;
   
 }
-.foto-servicio {
+.foto-diseño-web {
     height: auto;
     width: auto;
     display: flex;
+    background: url(../img/diseno-web_man35p_c_scale\,w_610.png) #ffa400;
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 880px;
 }
 
 /* estas propiedades (background: url(../img/ux-ui\,w_631.png) #ffa400;
@@ -138,7 +145,7 @@ en cuestion*/
     flex-basis: 880px;) han sido fundamentales para 
     que la imagen cargada desde css se posicionará usando
     todo el espacio disponible*/
-.foto-backgrouncss {
+.foto-ux-ui {
     background: url(../img/ux-ui\,w_631.png) #ffa400;
     background-repeat:no-repeat;
     background-position: 50% 50%;
@@ -159,4 +166,14 @@ en cuestion*/
     width: auto;
     
 }
+.foto-marketing {
+    background: url(../img/marketing\,w_637.png) #ffa400;
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 880px;
+}
+
   
