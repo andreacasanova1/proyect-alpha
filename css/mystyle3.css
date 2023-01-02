@@ -29,6 +29,7 @@
 	align-items: center;
 	justify-content: center;
 }
+
 /*.seccionretrato{
 	height: 80vh;
     min-height: 550px;
@@ -80,6 +81,7 @@
   }
 p {
     font-family:sans-serif;
+
 }
 .fondo-negro {
     padding: 6em 3em 8em 3em; 
@@ -87,9 +89,7 @@ p {
     background-color:#141414;
     
 }
-p {
-    padding: 0em 3em 3em 3em;
-}
+
 
 .content {
 	display: flex;
@@ -105,7 +105,7 @@ en cuestion*/
   
 
 .texto-servicios {
-    padding: 3em 3em 3em 4em;
+    padding: 3em 3em 3em 3em;
     font-size: 22px;
     background-color: #e3dfdf;
     color: #141414;
@@ -185,4 +185,17 @@ en cuestion*/
     display: flex;
     flex-wrap: wrap;
     flex-basis: 880px;
+}
+
+.imagenfooter {
+    width: 100%;
+    height: 100%;
+    background: url(../img/trama-blanco2_bxgrqg_c_scale\,w_890.png) #ffa400;
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+	display: flex;
+    flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
