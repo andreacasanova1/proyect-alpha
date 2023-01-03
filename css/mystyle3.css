@@ -13,7 +13,7 @@
     flex-direction: column;
 }
 .seccionportada {
-	height: 60vh;
+	height: 75vh;
 	width: 100%;
 	flex-direction: row;
 }
@@ -199,3 +199,22 @@ en cuestion*/
 	align-items: center;
 	justify-content: center;
 }
+.btncontact {
+    position: relative;
+    background-color: #ffa400;
+    border: 6px solid #141414;
+    border-radius: 40px;
+    width: 500px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+    
+    font-size: 30px;
+    
+  }
+
+  .btnfooter {
+
+  }
