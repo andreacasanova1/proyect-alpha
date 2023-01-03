@@ -13,8 +13,9 @@
     flex-direction: column;
 }
 .seccionportada {
-	height: 75vh;
+	height: 80vh;
 	width: 100%;
+    display: flex;
 	flex-direction: row;
 }
 .imagenportada{
@@ -61,7 +62,21 @@
     -ms-writing-mode: tb-rl;
     writing-mode: tb-rl;
 }
-.btnpmovil {
+.btnmenu {
+    align-self: flex-start;
+    background-color: #ffa400;
+    border: 6px solid #141414;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    margin-left: auto;
+   justify-content: center;
+    align-items: center;
+}
+/*.btnpmovil {
     position: relative;
     background-color: #ffa400;
     border: 6px solid #141414;
@@ -78,7 +93,8 @@
     margin-left: auto;
     margin-right: auto;
     top:10em;
-  }
+    }*/
+  
 p {
     font-family:sans-serif;
 
@@ -138,7 +154,7 @@ en cuestion*/
 }
 
 /* estas propiedades (background: url(../img/ux-ui\,w_631.png) #ffa400;
-    background-repeat: no-repeat,no-repeat;
+    background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
     display: flex;
@@ -210,10 +226,11 @@ en cuestion*/
     align-items: center;
     text-transform: uppercase;
     justify-content: center;
-    margin: 0,9em;
+    margin: 1em;
     
     font-size: 30px;
     font-family: sans-serif;
+    margin: 10px;
     
   }
   .contact {
@@ -230,6 +247,7 @@ en cuestion*/
     flex-wrap: wrap-reverse;
     margin-block-start: -164px;
     margin-block-end: 21em;
+    margin-bottom: 550px;
   }
   .logomio {
     display: flex;
@@ -239,7 +257,9 @@ en cuestion*/
   .btnrrss {
     display: flex;
     justify-content: center;
-    
     flex-wrap: wrap-reverse;
     margin-block-start: auto;
+    
+   
+    justify-content: space-evenly;
   }
