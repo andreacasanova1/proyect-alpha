@@ -194,10 +194,10 @@ en cuestion*/
     background-repeat:no-repeat;
     background-position: 50% 50%;
     background-size: 300%;
-	display: flex;
+	/*display: flex;
     flex-direction: row;
 	align-items: center;
-	justify-content: center;
+	justify-content: center;*/
 }
 .btncontact {
     position: relative;
@@ -210,21 +210,36 @@ en cuestion*/
     align-items: center;
     text-transform: uppercase;
     justify-content: center;
-    margin: 1em;
+    margin: 0,9em;
+    
     font-size: 30px;
     font-family: sans-serif;
     
   }
   .contact {
     background-color: #ffff;
+    font-family: 'Cinzel';
+    font-size: 45px;
   }
 
 
   .btnfooter {
-
+    flex-direction: column;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap-reverse;
+    margin-block-start: -164px;
+    margin-block-end: 21em;
   }
   .logomio {
     display: flex;
     justify-content: center;
-    margin-top: -950px;
+    /*margin-top: -950px;*/
+  }
+  .btnrrss {
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap-reverse;
+    margin-block-start: auto;
   }
