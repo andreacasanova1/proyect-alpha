@@ -110,6 +110,7 @@ p {
 .content {
 	display: flex;
     flex-wrap: wrap;
+    
 }
 /*FUNCIONAAAAAAAA, poniendo una clase solo para la foto
 en cuestion*/
@@ -227,7 +228,7 @@ en cuestion*/
     text-transform: uppercase;
     justify-content: center;
     margin: 1em;
-    
+    text-align: center;
     font-size: 30px;
     font-family: sans-serif;
     margin: 10px;
@@ -237,6 +238,15 @@ en cuestion*/
     background-color: #ffff;
     font-family: 'Cinzel';
     font-size: 45px;
+    text-align: center;
+    border-radius: 50px;
+    height: 500px;
+    flex-direction: column;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+    margin-block-end: 600px;
   }
 
 
@@ -263,3 +273,16 @@ en cuestion*/
    
     justify-content: space-evenly;
   }
+
+  input[type="checkbox"] {
+    appearance: none;
+    width: 45px;
+    height: 45px;
+    background-color:#ffa400;
+    border: 2px solid #141414;
+    border-radius: 50%;
+}
+
+input[type="checkbox"]:checked {  
+    background-color: blue;
+}
