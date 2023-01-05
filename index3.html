@@ -9,6 +9,8 @@
 	<link rel="shortcut icon" href="../proyect-alpha/img/logo-borde_xqinhz_c_scale,w_280.png">
 	<script>
 		function funcionQueMuestraUOcultaElMenu(){
+			//obtenemos el div menu de html, mediante el id que le he asignado, 
+			//en este caso "menu"
 			let divmenuElementoCapturadoDelHTML= document.getElementById("menu");
 			if(divmenuElementoCapturadoDelHTML.className=="divmenu ocultar"){
 				//Queremos mostrarlo
@@ -31,31 +33,35 @@
 		<div>
 			
 
-			<main>					   
-				<section class="seccionpapa" >
-					<div class="seccionportada" >
-					   <div class="imagenportada" >
+		<main>					   
+			<section class="seccionpapa" >
+				<div class="seccionportada" >
+					<div class="imagenportada" >
+						<!--onclic es un evento predefinido del buttom, lo usamos 
+						para ejecutar la funcion mostrar y ocultar el nemu-->
 						<button onclick="funcionQueMuestraUOcultaElMenu()" class="btnmenu">MENU</button>	
-					   </div>						   
-					</div>
+					</div>						   
+				</div>
 					
-					<div class="divmenu ocultar" id="menu">
-						<button class="btnmenu-2">
-						More about me
-						  </button>
-						  <button class="btnmenu-2">
-						Developer Web Design / Clients
-						  </button>
-						  <button class="btnmenu-2">
-						UX UI Design / Clients
-						  </button>
-						  <button class="btnmenu-2">
-						Visual Artist / Portfolio
-						  </button>
-						  <button class="btnmenu-2">
-						Store / Art and Objects
-						  </button>
-					</div> 
+				<div class="divmenu ocultar" id="menu">
+					<a  href="" class="btnmenu-2">More About me</a>
+					<!--cambiar los button a elementos a-->	
+					<button class="btnmenu-2">
+							More about me
+					</button>
+					<button class="btnmenu-2">
+							Developer Web Design / Clients
+					</button>
+					<button class="btnmenu-2">
+							UX UI Design / Clients
+					</button>
+					<button class="btnmenu-2">
+							Visual Artist / Portfolio
+					</button>
+					<button class="btnmenu-2">
+							Store / Art and Objects
+					</button>
+				</div> 
 					
 					<div class="solo-para-mifoto">
 						<div class="vertical-text" >
@@ -88,8 +94,7 @@
 							 desarrollar cualquier tipo de proyecto web.
 						</p>
 					</div>
-				</section>
-				<section>
+				
 					<!--imagen cargada desde html, cambiar tamaño para ver 
 					si se ajusta al espacio disponible-->
 					<div class="content">
