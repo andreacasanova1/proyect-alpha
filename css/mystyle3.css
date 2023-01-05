@@ -75,25 +75,54 @@
     margin-left: auto;
    justify-content: center;
     align-items: center;
+    margin: 30px auto;
+    margin-left: 735px;
+    position: fixed;
 }
-/*.btnpmovil {
+.btnmenu-2 {
+    
+
     position: relative;
     background-color: #ffa400;
     border: 6px solid #141414;
-    border-radius: 40px;
-    width: 500px;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    justify-content: center;
+    border-radius: 50px;
+    width: 700px;
+    height: 85px;
+    /* display: flex; */
+    /* margin: 10px; */
     flex-wrap: nowrap;
-    font-family: 'Cinzel', serif;
     font-size: 30px;
+     margin-left: auto
+}
+
+.divmenu {
+    
+    
+
+    height: 650px;
+    width: 800px;
+    
     margin-left: auto;
     margin-right: auto;
-    top:10em;
-    }*/
+    padding-top: 40px;
+
+    background-color: #ffff;
+    font-family: 'Cinzel';
+    font-size: 55px;
+    text-align: center;
+    border-radius: 50px;
+    
+
+    top: 163px;
+    position: fixed;
+    justify-content: center;
+    
+    margin: 81px;
+    display: grid;
+    display:none;
+   
+}
+
   
 p {
     font-family:sans-serif;
@@ -149,7 +178,6 @@ en cuestion*/
     background-repeat:no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    display: flex;
     flex-wrap: wrap;
     flex-basis: 880px;
 }
@@ -237,14 +265,9 @@ en cuestion*/
   .contact {
     background-color: #ffff;
     font-family: 'Cinzel';
-    font-size: 45px;
+    font-size: 55px;
     text-align: center;
     border-radius: 50px;
-    height: 500px;
-    flex-direction: column;
-    
-    justify-content: space-evenly;
-    align-items: center;
     margin: 100px;
     margin-block-end: 600px;
   }
@@ -285,4 +308,7 @@ en cuestion*/
 
 input[type="checkbox"]:checked {  
     background-color: blue;
+}
+label {
+    font-size: 35px;
 }
