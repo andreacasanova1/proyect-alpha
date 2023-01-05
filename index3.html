@@ -7,6 +7,20 @@
 	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&display=swap" 
 	rel="stylesheet">
 	<link rel="shortcut icon" href="../proyect-alpha/img/logo-borde_xqinhz_c_scale,w_280.png">
+	<script>
+		function funcionQueMuestraUOcultaElMenu(){
+			let divmenuElementoCapturadoDelHTML= document.getElementById("menu");
+			if(divmenuElementoCapturadoDelHTML.className=="divmenu ocultar"){
+				//Queremos mostrarlo
+				divmenuElementoCapturadoDelHTML.classList.remove("ocultar");
+				divmenuElementoCapturadoDelHTML.classList.add("mostrar");
+			}else{
+				//Queremos ocultarlo
+				divmenuElementoCapturadoDelHTML.classList.remove("mostrar");
+				divmenuElementoCapturadoDelHTML.classList.add("ocultar");
+			}
+		}
+	</script>
 
 <style> 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&display=swap');
@@ -21,11 +35,11 @@
 				<section class="seccionpapa" >
 					<div class="seccionportada" >
 					   <div class="imagenportada" >
-						<a href="" class="btnmenu">MENU</a>	
+						<button onclick="funcionQueMuestraUOcultaElMenu()" class="btnmenu">MENU</button>	
 					   </div>						   
 					</div>
 					
-					<div class="divmenu" class="display-none">
+					<div class="divmenu ocultar" id="menu">
 						<button class="btnmenu-2">
 						More about me
 						  </button>
