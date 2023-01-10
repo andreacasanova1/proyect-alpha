@@ -1,3 +1,5 @@
+
+
 *,
 *:after,
 *:before{
@@ -280,7 +282,7 @@ en cuestion*/
     flex-wrap: wrap-reverse;
     margin-block-start: -164px;
     margin-block-end: 21em;
-    margin-bottom: 550px;
+    margin-bottom: 50px;
   }
   .logomio {
     display: flex;
@@ -325,6 +327,9 @@ label {
   }
   /*estilos para @query */
 
+  
+/*estilos para @query */
+
 @media screen and (min-width:1000px ){ 
     .seccionportada {
         width: 30%;
@@ -336,7 +341,7 @@ label {
     } 
     .seccionpapa {
         flex-direction: row;
-        width: 5000px;
+        width: 7000px;
     }
 
     .solo-para-mifoto {
@@ -388,15 +393,28 @@ label {
         justify-content: center;
     }
 
-.foto-diseño-web {
-    width: 400px;
-    height: 380px;
-    margin: 68px;
-    background: url(../img/diseno-web_man35p_c_scale\,w_396.png);
-   background-repeat: no-repeat;
-}
+    .foto-diseño-web {
+        width: 400px;
+        height: 380px;
+        margin: 68px;
+        background: url(../img/diseno-web_man35p_c_scale\,w_396.png);
+        background-repeat: no-repeat;
+    }
+    .content {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .texto-servicios {
+        padding: 1em 1em 1em 1em;
+        font-size: 15;
+        background-color: #e3dfdf;
+        color: #141414;
+        margin: 0;
+        width: 400px;
 
 }
 
-
+}
 
