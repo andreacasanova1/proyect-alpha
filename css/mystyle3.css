@@ -332,12 +332,13 @@ label {
 
 @media screen and (min-width:1000px ){ 
     .seccionportada {
-        width: 30%;
+        width: auto;
+    
     }
     .imagenportada {
-        width: 48vw;
+        width: 50vw;
         height: 100vh;
-        background-size: 900px;  
+        background-size: 1000px;  
     } 
     .seccionpapa {
         flex-direction: row;
@@ -346,8 +347,8 @@ label {
 
     .solo-para-mifoto {
         flex-direction: row;
-        width: 11%;
-        height: auto;
+        width: 9%;
+        height: 619px;
     }
     .vertical-text {
         font-size: 2vw;
@@ -374,6 +375,9 @@ label {
     .foto-retrato {
         height: 660px;
         width: 1000px;
+        background: url(../img/andrea-casanova_wxenzr_c_scale\,w_613.png);
+        background-repeat:no-repeat;
+        background-position: 50% 50%;
     }
     .fondo-negro {
         display: flex;
@@ -415,6 +419,10 @@ label {
         width: 400px;
 
 }
+    main {
+        margin:0;
+        padding:0;
 
+    }
 }
 
