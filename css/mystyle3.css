@@ -331,14 +331,24 @@ label {
 /*estilos para @query */
 
 @media screen and (min-width:1000px ){ 
+    main {
+        width: 6421px;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        flex-direction: row;
+
+    }
     .seccionportada {
-        width: auto;
+        width: 50vw;
+        height: 660px;
     
     }
     .imagenportada {
         width: 50vw;
         height: 100vh;
-        background-size: 1000px;  
+        background-size: 1000px;
+        height: 660px;  
     } 
     .seccionpapa {
         flex-direction: row;
@@ -347,19 +357,14 @@ label {
 
     .solo-para-mifoto {
         flex-direction: row;
-        width: 9%;
-        height: 619px;
+        width: 50vw;
+        height: 660px;
     }
     .vertical-text {
         font-size: 2vw;
         padding: 0;
         margin: 17px;
         width: 2vw;
-        display: flex;
-        flex-direction: row;
-        width: 20px;
-        height: 619px;
-        justify-content: inherit;
     }
 
     .btnmenu {
@@ -382,11 +387,7 @@ label {
     .fondo-negro {
         display: flex;
         flex-direction: column;
-        padding-bottom: 40px;
-        padding-top: 40px;
-        padding-left: 30px;
-        padding-right: 30px;
-        width: 1100px;
+        width: 45vw;
         height: 660px;
         font-size: unset;
     }
@@ -418,11 +419,11 @@ label {
         margin: 0;
         width: 400px;
 
-}
-    main {
-        margin:0;
-        padding:0;
-
     }
+    .divmenu {
+        width: auto;
+        height: 400px;
+    }
+    
 }
 
