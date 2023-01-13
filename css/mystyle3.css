@@ -208,13 +208,11 @@ en cuestion*/
 .foto-retrato  {
     background: url(../img/andrea-casanova_wxenzr_c_scale\,w_917.png) #ffa400;
     background-repeat:no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
+    
     display: flex;
-    flex-wrap: wrap;
-    flex-basis: 880px;
-    height: auto;
-    width: auto;
+    
+    flex-basis: 1024px;
+    
     
 }
 .foto-marketing {
@@ -333,14 +331,71 @@ label {
   
 /*estilos para @query */
 
-@media screen and (min-width:900px ){ 
-    main {
+@media screen and (min-width:1000px ){ 
+    body {
         padding: 0%;
         margin: 0%;
-        display: flex;
-        flex-direction: row;  
+          
     }
     
+    .contenedor-imagen {
+        flex-direction: row;
+        display: flex;
+        width: 50vw;
+        height: 100vh;
+    }
+    .contenedor-imagen2 {
+        width: vw;
+        height: auto;
+    }
+
+    .vertical-text {
+    letter-spacing: 1px;
+    font-family: 'Cinzel', serif;
+    font-size: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    padding: 80px;
+    margin-top: 460px;
+    transform: rotate(90deg);
+    }
+
+    .vertical-text__text {
+        transform: rotate(270deg);
+        transform: rotate(180deg);
+    }
+    .servicios {
+        transform: rotate(270deg);
+        width: -webkit-fill-available;
+    }
+    .foto-retrato {
+        margin-block-end: 400px;
+    }
+    
+    .fondo-negro {
+        padding: 3em 9em 3em 9em;
+        color: #141414;
+        background-color: #e3dfdf;
+        width: 1200px;
+        display: flex;
+        flex-direction: column;
+        font-size: 31px;
+    }
+    .titulo-ser {
+        width: 670px;
+        height: 800px;
+        font-family: 'Cinzel', serif;
+        font-size: 3vw;
+        text-align: center;
+        display: flex;
+        align-items: center;
+}
+
+
 }
    /* .imagenportada {
         width: 50vw;
