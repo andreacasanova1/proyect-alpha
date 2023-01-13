@@ -350,18 +350,18 @@ label {
     }
 
     .vertical-text {
-    letter-spacing: 1px;
-    font-family: 'Cinzel', serif;
-    font-size: 52px;
-    text-align: center;
-    text-transform: uppercase;
-    white-space: nowrap;
-    background-color: #fff;
-    display: flex;
-    justify-content: flex-start;
-    padding: 80px;
-    margin-top: 460px;
-    transform: rotate(90deg);
+        letter-spacing: 1px;
+        font-family: 'Cinzel', serif;
+        font-size: 60px;
+        text-align: center;
+        text-transform: uppercase;
+        white-space: nowrap;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        padding: 81px;
+        margin-top: 584px;
+        transform: rotate(90deg);
     }
 
     .vertical-text__text {
@@ -374,27 +374,58 @@ label {
     }
     .foto-retrato {
         margin-block-end: 400px;
+        background: url(../img/andrea-casanova_wxenzr_c_scale\,w_917.png) #ffa400;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-basis: 50%;
     }
     
     .fondo-negro {
-        padding: 3em 9em 3em 9em;
+        padding: 3em 9em 4em 9em;
         color: #141414;
         background-color: #e3dfdf;
-        width: 1200px;
+        width: 70%;
         display: flex;
         flex-direction: column;
-        font-size: 31px;
+        font-size: 33px;
+        margin-top: -12em;
     }
     .titulo-ser {
-        width: 670px;
-        height: 800px;
-        font-family: 'Cinzel', serif;
+        width: 45%;
+        height: 1000px;
+    
         font-size: 3vw;
-        text-align: center;
-        display: flex;
-        align-items: center;
+   
+        align-items: self-end;
 }
-
+    .content {
+        display: flex;
+        flex-direction: row;
+}
+    .texto-servicios {
+        width: 60%;
+        height: auto;
+        font-size: 30px;
+}
+    .foto-diseño-web {
+        width: 35%;
+ }
+    .btnmenu {
+        background-color: #ffa400;
+        border: 6px solid #141414;
+        border-radius: 100%;
+        width: 215px;
+        height: 215px;
+        /* display: flex; */
+        font-family: 'Cinzel', serif;
+        font-size: 40px;
+        /* margin-left: auto; */
+        justify-content: center;
+        align-items: center;
+        /* margin: 86% auto; */
+        margin-left: 130%;
+        position: fixed;
+    }
 
 }
    /* .imagenportada {
