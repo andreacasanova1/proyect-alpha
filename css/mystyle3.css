@@ -395,9 +395,11 @@ label {
         flex-direction: row;
     }
     .texto-servicios {
+        
         width: 60%;
         height: auto;
-        font-size: 30px;
+        font-size: 5px;
+        padding: 42px;
     }
     .foto-diseño-web {
         width: 35%;
